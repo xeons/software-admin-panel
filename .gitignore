@@ -1,0 +1,9 @@
+.idea/
+
+templates_c/
+cache/
+
+update/*
+!update/index.html
+
+include/config.php
