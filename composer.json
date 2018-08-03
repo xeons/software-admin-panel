@@ -1,0 +1,14 @@
+{
+    "name": "xeonproductions/software-admin-panel",
+    "description": "A protected software administration front-end and API written in PHP.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Brandon Scott",
+            "email": "xeons@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "~3.1"
+    }
+}
