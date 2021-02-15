@@ -2,10 +2,11 @@
 @error_reporting(E_ALL | E_NOTICE);
 @ini_set('display_errors', 1);
 
+require('./vendor/autoload.php'); // composer autoloader
+
 require('./include/config.php');
 require('./include/functions.php');
 require('./include/recaptchalib.php');
-require('./include/smarty/Smarty.class.php');
 
 // create the database connection
 $db = new mysqli($config['db_host'], $config['db_user'], $config['db_pass'], $config['db_name']);

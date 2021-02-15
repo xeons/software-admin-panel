@@ -7,3 +7,5 @@ update/*
 !update/index.html
 
 include/config.php
+
+/vendor/

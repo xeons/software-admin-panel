@@ -225,12 +225,6 @@ ALTER TABLE `link_logs`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `migrations`
---
-ALTER TABLE `migrations`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `password_resets`
 --
 ALTER TABLE `password_resets`
@@ -294,11 +288,6 @@ ALTER TABLE `ip_bans`
 --
 ALTER TABLE `link_logs`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `migrations`
---
-ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `permissions`
 --
